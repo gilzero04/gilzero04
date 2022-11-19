@@ -1,0 +1,33 @@
+{
+    "name": "Panvora Link",
+    "short_name": "PL",
+    "description": "Panvora Link",
+    "id": "link.panvora.social-login",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "prefer_related_applications": true,
+    "display_override": ["window-control-overlay", "minimal-ui"],
+    "display": "standalone",
+    "scope" : ["/", "/sigin/", "/signup/"],
+    "start_url": "/sigin/",
+    "icons": [
+		{
+		    "src": "favicon.png",
+		    "type": "image/png",
+		    "sizes": "144x144",
+            "purpose": "maskable"
+		},
+        {
+		    "src": "apple-touch-icon.png",
+		    "type": "image/png",
+		    "sizes": "192x192",
+            "purpose": "maskable"
+		},
+        {
+		    "src": "iconx512.png",
+		    "type": "image/png",
+		    "sizes": "512x512",
+            "purpose": "maskable"
+		}
+    ]
+}
